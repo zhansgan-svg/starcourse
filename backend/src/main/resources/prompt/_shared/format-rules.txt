@@ -1,0 +1,38 @@
+## 输出格式规范
+
+### 通用规则
+1. 必须输出合法的 JSON，不使用 markdown 代码块包裹
+2. 不要在 JSON 前后添加任何额外文字、解释或说明
+3. 字符串值中不要使用未转义的双引号
+4. 数字不加引号，布尔值使用 true/false
+5. 数组和对象的最后一项后面不要加逗号
+
+### 各 Prompt 类型的 JSON Schema
+
+#### questionnaire（角色定位生成器）
+```json
+{
+  "nickname": "string — 2-4个字的昵称",
+  "avatarSuggestion": "string — 头像风格描述",
+  "positioning": "string — 一句话定位声明，20字以内"
+}
+```
+
+#### script-generation（短视频脚本生成器）
+```json
+[
+  {
+    "title": "string — 15字以内的标题",
+    "hook": "string — 前3秒开场白",
+    "fullScript": "string — 完整脚本，300字以内",
+    "shootingTips": "string — 拍摄建议"
+  }
+]
+```
+
+#### rewrite（文案改写工坊）
+```json
+{
+  "rewrittenContent": "string — 改写后的完整文案"
+}
+```

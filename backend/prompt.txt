@@ -1,0 +1,11 @@
+Fix the compilation error in PlaybookService.java. The file has Chinese quotes (") inside Java string literals that the compiler interprets as string terminators.
+
+Read src/main/java/com/starcourse/service/playbook/PlaybookService.java and fix ALL instances where Chinese curly quotes (" or ") or regular double quotes appear inside string literals without being escaped.
+
+Replace patterns like:
+- "凑十法" with \"凑十法\"
+- Any unescaped double quote inside a string literal
+
+Make sure every string literal is properly closed. Run the fix on all ~220 lines of the file.
+
+After fixing, verify the file compiles by checking for balanced quotes.

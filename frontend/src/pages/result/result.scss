@@ -1,0 +1,117 @@
+.result-container {
+  padding: 30px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.result-header {
+  text-align: center;
+  padding: 40px 0 50px;
+}
+
+.result-emoji {
+  font-size: 80px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.result-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #2d3436;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.result-subtitle {
+  font-size: 26px;
+  color: #999;
+  display: block;
+}
+
+.result-card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 36px 30px;
+  margin-bottom: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+.result-card.highlight {
+  background: linear-gradient(135deg, #6C5CE7, #a29bfe);
+}
+
+.card-label {
+  font-size: 26px;
+  color: #999;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.result-card.highlight .card-label {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card-value {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2d3436;
+  display: block;
+}
+
+.card-value.large {
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.result-card.highlight .card-value {
+  color: #fff;
+}
+
+.result-status {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.status-badge {
+  background: #fff;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 28px;
+  color: #00b894;
+  font-weight: bold;
+}
+
+.error-text {
+  text-align: center;
+  font-size: 32px;
+  color: #e74c3c;
+  padding: 100px 0;
+  display: block;
+}
+
+.btn-row {
+  display: flex;
+  gap: 20px;
+  padding: 30px 10px 0;
+}
+
+.btn {
+  flex: 1;
+  padding: 28px;
+  text-align: center;
+  border-radius: 16px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.btn-back {
+  background: #fff;
+  color: #6C5CE7;
+  border: 3px solid #6C5CE7;
+}
+
+.btn-next {
+  background: linear-gradient(135deg, #00b894, #55efc4);
+  color: #fff;
+}

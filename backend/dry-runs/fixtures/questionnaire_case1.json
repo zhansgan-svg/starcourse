@@ -1,0 +1,21 @@
+{
+  "promptType": "questionnaire",
+  "description": "数学老师 - 初中数学辅导",
+  "input": {
+    "subject": "初中数学",
+    "gradeLevel": "初一至初三",
+    "style": "耐心细致，善于用生活案例解释抽象概念",
+    "strengths": "10年教学经验，擅长帮助数学基础薄弱的学生提分",
+    "shootableContent": "数学解题技巧、易错题分析、学习方法分享",
+    "frequency": "每周3-4条",
+    "targetAudience": "初中生家长，尤其是孩子数学成绩中等偏下的",
+    "pricingRange": "一对一200-300元/小时",
+    "differentiator": "独创'三步拆题法'，让学生从畏惧数学到爱上数学",
+    "platformPreference": "小红书"
+  },
+  "expectedOutput": {
+    "nickname": "string",
+    "avatarSuggestion": "string",
+    "positioning": "string"
+  }
+}

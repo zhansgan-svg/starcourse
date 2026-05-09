@@ -1,0 +1,21 @@
+{
+  "promptType": "questionnaire",
+  "description": "英语老师 - 少儿英语启蒙",
+  "input": {
+    "subject": "少儿英语",
+    "gradeLevel": "幼儿园大班至小学三年级",
+    "style": "活泼有趣，擅长用游戏和歌曲教学",
+    "strengths": "海归硕士，TESOL认证，双语教学环境",
+    "shootableContent": "英语儿歌、亲子互动游戏、自然拼读教学",
+    "frequency": "每周5条以上",
+    "targetAudience": "3-8岁孩子的宝妈，注重英语启蒙教育",
+    "pricingRange": "小班课80-150元/课时",
+    "differentiator": "用'沉浸式游戏法'让孩子在玩中学，零压力开口说英语",
+    "platformPreference": "小红书"
+  },
+  "expectedOutput": {
+    "nickname": "string",
+    "avatarSuggestion": "string",
+    "positioning": "string"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "promptType": "script-generation",
+  "description": "数学老师生成2个短视频脚本",
+  "input": {
+    "count": "2",
+    "nickname": "数学三步哥",
+    "subject": "初中数学",
+    "gradeLevel": "初一至初三",
+    "style": "耐心细致，善于用生活案例解释抽象概念",
+    "strengths": "10年教学经验，擅长帮助数学基础薄弱的学生提分",
+    "differentiator": "独创'三步拆题法'，让学生从畏惧数学到爱上数学",
+    "positioning": "帮数学渣娃3步拆题，从60分逆袭到90分",
+    "materials": "## 素材1：初中数学易错题\\n- 有理数运算符号错误\\n- 一元一次方程移项变号\\n\\n## 素材2：数学学习方法\\n- 错题本使用技巧\\n- 审题三步法",
+    "narrativeContext": "想讲口算技巧，用凑十法让孩子算得又快又准"
+  },
+  "expectedOutput": {
+    "type": "array",
+    "minItems": 2,
+    "itemSchema": {
+      "title": "string",
+      "hook": "string",
+      "fullScript": "string",
+      "shootingTips": "string"
+    }
+  }
+}
